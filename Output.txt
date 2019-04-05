@@ -1,0 +1,47 @@
+
+
+runfile('D:/Learning/TensorFlow/2DNN-IdentifyingHandwrittenDigits/2DeepNeuralNetworkForIdentifyingHandwrittenDigits.py', wdir='D:/Learning/TensorFlow/2DNN-IdentifyingHandwrittenDigits')
+WARNING:tensorflow:From D:/Learning/TensorFlow/2DNN-IdentifyingHandwrittenDigits/2DeepNeuralNetworkForIdentifyingHandwrittenDigits.py:66: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From D:\Anaconda3\envs\tf_gpu\lib\site-packages\tensorflow\contrib\learn\python\learn\datasets\mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From D:\Anaconda3\envs\tf_gpu\lib\site-packages\tensorflow\contrib\learn\python\learn\datasets\mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting D:\Learning\TensorFlow\2DNN-IdentifyingHandwrittenDigits\data\train-images-idx3-ubyte.gz
+WARNING:tensorflow:From D:\Anaconda3\envs\tf_gpu\lib\site-packages\tensorflow\contrib\learn\python\learn\datasets\mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting D:\Learning\TensorFlow\2DNN-IdentifyingHandwrittenDigits\data\train-labels-idx1-ubyte.gz
+WARNING:tensorflow:From D:\Anaconda3\envs\tf_gpu\lib\site-packages\tensorflow\contrib\learn\python\learn\datasets\mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting D:\Learning\TensorFlow\2DNN-IdentifyingHandwrittenDigits\data\t10k-images-idx3-ubyte.gz
+Extracting D:\Learning\TensorFlow\2DNN-IdentifyingHandwrittenDigits\data\t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From D:\Anaconda3\envs\tf_gpu\lib\site-packages\tensorflow\contrib\learn\python\learn\datasets\mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From D:\Anaconda3\envs\tf_gpu\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From D:/Learning/TensorFlow/2DNN-IdentifyingHandwrittenDigits/2DeepNeuralNetworkForIdentifyingHandwrittenDigits.py:203: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+Epoch  0 completed out of  10 loss:  1879268.7362365723
+Epoch  1 completed out of  10 loss:  416816.5302619934
+Epoch  2 completed out of  10 loss:  231154.7297538519
+Epoch  3 completed out of  10 loss:  135482.38140296936
+Epoch  4 completed out of  10 loss:  85090.65146031976
+Epoch  5 completed out of  10 loss:  50486.5387917757
+Epoch  6 completed out of  10 loss:  34857.53347623348
+Epoch  7 completed out of  10 loss:  26546.772148035136
+Epoch  8 completed out of  10 loss:  21762.104536079914
+Epoch  9 completed out of  10 loss:  19078.032587759495
+Accuracy: 0.9491
